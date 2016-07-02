@@ -1,0 +1,135 @@
+/*******************************
+Basic Page Styles
+*******************************/
+
+body {
+    margin: 0; 
+    text-align: center;
+    font-family: 'BenchNine', sans-serif;
+    font-size: large;
+    font-weight: bold;
+}
+
+.headerContent {
+    width: 1024px;
+    height: auto;
+    margin: 0 auto;
+    backgroup: #e2c158;
+}
+
+.bio {
+    padding: 0 30%;
+    text-align: justify;
+    border-top: 2px dashed #e2c158;
+}
+
+h2 {
+    text-shadow: 1px 1px 1px #ff2bff;
+    font-size: xx-large;
+}
+
+h3 {
+    text-decoration:underline; 
+    font-size: x-large;
+    text-shadow: 1px 1px 1px #ff2bff; 
+    
+}
+
+.faqs {
+    padding: 0 25%;
+    text-align: center;
+    border-top: 2px dashed #e2c158;
+}
+
+
+/*******************************
+Navigation Bar Header
+*******************************/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+}
+
+li {
+    float: right;
+    padding: 15px;
+    text-transform: lowercase;
+    font-size: x-large;
+}
+
+li a {
+    display: block;
+    text-decoration: none;
+    color: #000;
+}
+
+li a:hover {
+    font-size: xx-large;
+}
+
+/*******************************
+Images
+*******************************/
+
+#main-logo {
+    max-width: 20%;
+    align-self: baseline;
+}
+
+#thank-you-heart {
+    max-width: 30px;
+}
+
+#family-photo {
+    max-width: 50%;
+    min-width: 200px;
+    float: right;
+}
+
+#contact-email, #contact-facebook {
+    max-width: 100px;
+    min-wdith: 100px;
+}
+
+/*******************************
+Navigation Bar Footer
+*******************************/
+
+.footer-nav {
+    padding: .5% 10%;
+    text-transform: lowercase;
+    font-size: large;
+    background color: #000;
+    text-color
+}
+
+/*******************************
+Footer
+*******************************/
+
+footer {
+    padding-top: 5px;
+    border-top: 2px dashed #e2c158;
+}
+
+#thank-you {
+    font-family: 'Crafty Girls', cursive;
+}
+
+#insta {
+    max-width: 30px;  
+}
+
+#email {
+    max-width: 30px;
+}
+
+#facebook {
+    max-width: 30px;
+}
+
