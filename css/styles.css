@@ -41,6 +41,12 @@ h3 {
     border-top: 2px dashed #e2c158;
 }
 
+#faq-link {
+    text-decoration: none;
+    color: #ff2bff;
+    display: inline-block;
+}
+
 
 /*******************************
 Navigation Bar Header
@@ -77,7 +83,7 @@ Images
 *******************************/
 
 #main-logo {
-    max-width: 20%;
+    max-width: 25%;
     align-self: baseline;
 }
 
@@ -93,7 +99,6 @@ Images
 
 #contact-email, #contact-facebook {
     max-width: 100px;
-    min-wdith: 100px;
 }
 
 /*******************************
@@ -105,7 +110,7 @@ Navigation Bar Footer
     text-transform: lowercase;
     font-size: large;
     background color: #000;
-    text-color
+    float: left;
 }
 
 /*******************************
