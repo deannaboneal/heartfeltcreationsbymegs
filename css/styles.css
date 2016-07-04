@@ -14,7 +14,6 @@ body {
     width: auto;
     height: auto;
     margin: 0 auto;
-    border-bottom: 2px dashed #e2c158;
 }
 
 .bio {
@@ -23,14 +22,14 @@ body {
 }
 
 h2 {
-    text-shadow: 1px 1px 1px #ff2bff;
+    text-shadow: 1px 1px 1px #8c8c8c;
     font-size: xx-large;
 }
 
 h3 {
     text-decoration:underline; 
     font-size: x-large;
-    text-shadow: 1px 1px 1px #ff2bff; 
+    text-shadow: 1px 1px 3px #ff2bff; 
 }
 
 .faqs {
@@ -46,6 +45,7 @@ h3 {
 
 .quote {
     padding: 0;
+    font-family: 'Crafty Girls', cursive;
 }
 
 /*******************************
@@ -55,7 +55,7 @@ Navigation Bar Header
 ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 0 2em;
     overflow: hidden;
     border-bottom: 2px dashed #e2c158;
 }
@@ -65,6 +65,7 @@ li a {
     display: block;
     text-decoration: none;
     color: #000;
+    padding-top: 1.5em;
 }
 
 li a:hover {
