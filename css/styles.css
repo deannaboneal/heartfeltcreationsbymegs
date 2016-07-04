@@ -47,6 +47,10 @@ h3 {
     display: inline-block;
 }
 
+.quote {
+    border-top: 3px dashed #e2c158;
+    padding: 0;
+}
 
 /*******************************
 Navigation Bar Header
@@ -61,12 +65,6 @@ ul {
     border-bottom: 2px solid #000;
 }
 
-li {
-    float: right;
-    padding: 15px;
-    text-transform: lowercase;
-    font-size: x-large;
-}
 
 li a {
     display: block;
@@ -78,13 +76,25 @@ li a:hover {
     font-size: xx-large;
 }
 
+.top-nav {
+    float: right;
+    padding: 15px;
+    text-transform: lowercase;
+    font-size: x-large;
+}
+
 /*******************************
 Images
 *******************************/
 
 #main-logo {
     max-width: 25%;
-    align-self: baseline;
+}
+
+#main-logo-shopping {
+    width: 200px;
+    float: left;
+    padding-left: 5em;
 }
 
 #thank-you-heart {
@@ -101,40 +111,35 @@ Images
     max-width: 100px;
 }
 
+#gallery1, #gallery2, #gallery3 {
+    max-width: 20%;
+    padding: 10px;
+}
+
 /*******************************
 Navigation Bar Footer
 *******************************/
 
 .footer-nav {
-    padding: .5% 10%;
     text-transform: lowercase;
-    font-size: large;
+    font-size: x-large;
     background color: #000;
-    float: left;
+    display: inline-block;
+    padding: 0 2em;
+    
 }
 
 /*******************************
 Footer
 *******************************/
 
-footer {
-    padding-top: 5px;
-    border-top: 2px dashed #e2c158;
-}
-
 #thank-you {
     font-family: 'Crafty Girls', cursive;
 }
 
-#insta {
+#insta, #email, #facebook {
     max-width: 30px;  
-}
-
-#email {
-    max-width: 30px;
-}
-
-#facebook {
-    max-width: 30px;
+    padding: 1em;
+    align-content: center;
 }
 
