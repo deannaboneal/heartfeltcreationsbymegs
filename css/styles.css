@@ -10,17 +10,16 @@ body {
     font-weight: bold;
 }
 
-.headerContent {
-    width: 1024px;
+.main-header {
+    width: auto;
     height: auto;
     margin: 0 auto;
-    backgroup: #e2c158;
+    border-bottom: 2px dashed #e2c158;
 }
 
 .bio {
     padding: 0 30%;
     text-align: justify;
-    border-top: 2px dashed #e2c158;
 }
 
 h2 {
@@ -32,13 +31,11 @@ h3 {
     text-decoration:underline; 
     font-size: x-large;
     text-shadow: 1px 1px 1px #ff2bff; 
-    
 }
 
 .faqs {
     padding: 0 25%;
     text-align: center;
-    border-top: 2px dashed #e2c158;
 }
 
 #faq-link {
@@ -48,7 +45,6 @@ h3 {
 }
 
 .quote {
-    border-top: 3px dashed #e2c158;
     padding: 0;
 }
 
@@ -61,8 +57,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    border-top: 2px solid #000;
-    border-bottom: 2px solid #000;
+    border-bottom: 2px dashed #e2c158;
 }
 
 
