@@ -70,6 +70,17 @@ li a {
 
 li a:hover {
     font-size: xx-large;
+    color: #ff2bff;
+}
+
+.active {
+    font-size: xx-large;
+    color: #ff2bff;
+}
+
+li a:not(.active) {
+    font-size: x-large;
+    color: black;
 }
 
 .top-nav {
