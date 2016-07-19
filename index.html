@@ -18,19 +18,24 @@
   </head>
     
   <body>
-      <header>
-          <ul>
+      	!-- start header	-->
+		<header class="main-header">
+            
+          <ul class="nav">
+              <a href="index.html"><img src="images/HeartFELTCreations-by-megs-LOGO.jpg" alt="HeartFELT Creations by Megs logo" id="main-logo-shopping"/></a>
               <li class="top-nav"><a href="toys-more.html">toys &amp; more</a></li>
               <li class="top-nav"><a href="produce.html">produce</a></li>
               <li class="top-nav"><a href="lunch-dinner.html">lunch &amp; dinner</a></li>
               <li class="top-nav"><a href="snacks-treats.html">snacks &amp; treats</a></li>
               <li class="top-nav"><a href="breakfast.html">breakfast</a></li>
+              <li class="icon"><a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">☰</a></li>
           </ul>
           
-          <a href="index.html"><img src="images/HeartFELTCreations-by-megs-LOGO.jpg" alt="HeartFELT Creations by Megs logo" id="main-logo"/></a>
       </header>
-      
-     <div class="product-sampling">
+		<!-- end header	-->
+     <div class="content"> 
+                   
+     <div class="at-play">
           <img src="images/felt-play-watermelon-laugh-tea-party.jpg" alt="laughing-toddler-girl-felt-play-food-watermelon" id="gallery1"/>
           <img src="images/felt-play-picnic-stuffies-sisters.jpg" alt="picnic-felt-food-play-sisters-stuffies" id="gallery2"/>
           <img src="images/felt-play-tea-party-imagination.jpg" alt="tea-party-felt-food-play-princess-young-girl" id="gallery3"/>
@@ -39,6 +44,7 @@
        <div class="quote">
         <p>"Play is the work of children. It's very serious stuff." -Bob Keeshan</p>
       </div>
+      </div>     
            
       <footer>
           
@@ -60,9 +66,15 @@
           </div>
           
       </footer>
+  
    
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us13.list-manage.com","uuid":"37b6fe740cd3826c559392b1f","lid":"92ee523bd1"}) })</script>
+    <script>
+        function myFunction() {
+            document.getElementsByClassName("nav")[0].classList.toggle("responsive");
+        }
+    </script>
     </body>
   
 </html>

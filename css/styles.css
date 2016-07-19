@@ -11,13 +11,21 @@ body {
 }
 
 .main-header {
-    width: auto;
+    width: 100%;
     height: auto;
+    top: 0;
     margin: 0 auto;
+    position: fixed;
+    background-color: white;
+}
+
+.content {
+    margin-top: 200px;
+    padding: 0 10%;
 }
 
 .bio {
-    padding: 0 30%;
+    padding: 0 15%;
     text-align: justify;
 }
 
@@ -44,9 +52,14 @@ h3 {
 }
 
 .quote {
-    padding: 0;
+    padding: 10px;
     font-family: 'Crafty Girls', cursive;
-    font-size: 10px;
+    font-size: 1em;
+}
+
+#signature {
+    text-align: center;
+    padding: 15px 0 0 15px;
 }
 
 /*******************************
@@ -66,7 +79,7 @@ li a {
     display: block;
     text-decoration: none;
     color: #000;
-    padding-top: 1.5em;
+    padding-top: 1em;
 }
 
 .active {
@@ -79,10 +92,15 @@ li a:hover:not(.active) {
 }
 
 .top-nav {
+    
     float: right;
     padding: 15px;
     text-transform: lowercase;
     font-size: x-large;
+}
+
+ul.nav li.icon {
+    display: none;
 }
 
 /*******************************
@@ -107,15 +125,23 @@ Images
     max-width: 50%;
     min-width: 200px;
     float: right;
+    padding-left: 5px;
+}
+
+#favorite {
+    max-width: 20%;
+    min-width: 100px;
+    float: left;
+    padding-right: 5px;
 }
 
 #contact-email, #contact-facebook {
-    max-width: 100px;
+    max-width: 75px;
 }
 
 #gallery1, #gallery2, #gallery3 {
     max-width: 20%;
-    padding: 10px;
+    padding: 1px;
 }
 
 /*******************************
@@ -128,8 +154,7 @@ Navigation Bar Footer
     background color: #000;
     display: inline-block;
     padding: 0 2em;
-    
-}
+ }
 
 /*******************************
 Footer
@@ -145,14 +170,66 @@ Footer
     align-content: center;
 }
 
-@media screen and (max-width: 700px){
-    .top-nav {float: right;}
+/*******************************
+Media Queries
+*******************************/
+
+@media screen and (max-width:975px) {
+    ul.nav li:not(:first-child) {display: none;}
+    ul.nav li.icon {
+        float: right;
+        display: inline-block;
+  }
 }
+
+@media screen and (max-width:975px) {
+    ul.nav.responsive {position: relative;}
+    ul.nav.responsive li.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    ul.nav.responsive li {
+        float: none;
+        display: inline;
+    } 
+    ul.nav.responsive li a {
+        display: block;
+        text-align: right;
+        padding-top: 0;
+        font-size: small;
+    }
+    .quote {
+        font-size: small;
+    }
+    .footer-nav {
+    font-size: 20px;
+    display: inline-block;
+    padding: 0 1em;
+    }
+}
+
+@media screen and (max-width:450px) {
+    #main-logo-shopping{
+        width: 100px;
+        padding-left: 0em;        
+    }    
+    .content {
+        margin-top: 100px;
+        padding: 0 10px;
+    }
+    .quote {
+        font-size: x-small;
+    }
+    .footer-nav {
+    font-size: medium;
+    display: inline-block;
+    padding: 0 1em;
+    }
     
-@media screen and (max-width: 600px){
-    .top-nav, .footer-nav {padding: 4px;}
-    .top-nav, footer-nav {float: none;}
-    .top-nav, footer-nav {font-size: large;}
-    .top-nav a {padding-top: 0;}
 }
+
+
+
+
     

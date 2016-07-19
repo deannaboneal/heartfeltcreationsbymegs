@@ -30,12 +30,13 @@
               <li class="top-nav"><a href="lunch-dinner.html">lunch &amp; dinner</a></li>
               <li class="top-nav"><a href="snacks-treats.html">snacks &amp; treats</a></li>
               <li class="top-nav"><a href="breakfast.html">breakfast</a></li>
+              <li class="icon"><a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">☰</a></li>
           </ul>
           
       </header>
 		<!-- end header	-->
 		
-		<div class="main-content">
+		<div class="content">
 			<h1>toys &amp; more</h1>
             
             <div data-accent_color="000000" data-background_color="ffffff" data-button_background_color="ff2bff" data-button_text_color="000000" data-cart_button_text="Cart" data-cart_title="Your cart" data-cart_total_text="Total" data-checkout_button_text="Checkout" data-discount_notice_text="Shipping and discount codes are added at checkout." data-embed_type="cart" data-empty_cart_text="Your cart is empty." data-shop="heartfelt-creations-by-megs.myshopify.com" data-sticky="true" data-text_color="000000"></div>
@@ -70,7 +71,11 @@
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-     
+    <script>
+        function myFunction() {
+            document.getElementsByClassName("nav")[0].classList.toggle("responsive");
+        }
+    </script> 
   </body>
   
 </html>

@@ -30,12 +30,14 @@
               <li class="top-nav"><a href="lunch-dinner.html">lunch &amp; dinner</a></li>
               <li class="top-nav"><a href="snacks-treats.html">snacks &amp; treats</a></li>
               <li class="top-nav"><a href="breakfast.html">breakfast</a></li>
+              <li class="icon"><a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">☰</a></li>
           </ul>
           
       </header>
 		<!-- end header	-->
       
-      <div class="faqs">
+      <div class="content">
+        <div class="faqs">
           <p>Have a question? Please check the FAQ's below. Email me if you still need answers. We are happy to help! </p>
  
           <a href="mailto:heartfeltcreationsbymegs@gmail.com">heartfeltcreationsbymegs@gmail.com</a>
@@ -92,11 +94,17 @@
           </div>
           
       </footer>
+        </div>
+      </div>
    
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-
+      <script>
+        function myFunction() {
+            document.getElementsByClassName("nav")[0].classList.toggle("responsive");
+        }
+      </script>
   </body>
   
 </html>
