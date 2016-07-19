@@ -11,6 +11,7 @@
 
     <link rel="stylesheet" href="css/normalize.css" />
     <link href="css/styles.css" rel="stylesheet">
+    <link href="css/accordian.css" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=BenchNine:400,700,300' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=Crafty+Girls" rel="stylesheet">
 
@@ -37,44 +38,97 @@
 		<!-- end header	-->
       
       <div class="content">
-        <div class="faqs">
+        <div>
           <p>Have a question? Please check the FAQ's below. Email me if you still need answers. We are happy to help! </p>
  
           <a href="mailto:heartfeltcreationsbymegs@gmail.com">heartfeltcreationsbymegs@gmail.com</a>
           
           <p>DISCLAIMER: All items by HeartFELT Creations by Megs are handmade, therefore slight variations in color and design are to be expected. Part of the charm and appeal of handmade is special care given to each item. Each piece is unique in that respect. The artist tries very hard to maintain an overall consistent product, but it is impossible to control all aspects of the creative process, including but not limited to the slight variations in felt color and felt availability.</p>
-
-          <h2>Popular FAQs:</h2>
- 
-          <h3>How long will it take to receive my item?</h3>
-            <p>Majority of items are made at the time you place your order and can take up to 1 or 2 weeks to be made if it is not already in stock, but we update on how quickly progress is being made. Shipping takes typically two days. So if ordering for a birthday or special occasion please make sure to order early to ensure your items can be made and arrive on time.</p>
+        </div>
+        
+        <h2>Popular FAQs:</h2>
+    
+          <div class="tab">
+            <input id="tab-one" type="radio" name="tabs">
+            <label for="tab-one">How long will it take to receive my item?</label>
+            <div class="tab-content">
+                <p>Majority of items are made at the time you place your order and can take up to 1 or 2 weeks to be made if it is not already in stock, but we update on how quickly progress is being made. Shipping takes typically two days. So if ordering for a birthday or special occasion please make sure to order early to ensure your items can be made and arrive on time.</p>
+            </div>
+          </div>
+            
+          <div class="tab">
+            <input id="tab-two" type="radio" name="tabs">
+            <label for="tab-two">What are the items made of?</label>
+            <div class="tab-content">
+                <p>Polyester mix craft grade felt. Stuffed items are filled with hypo-allergenic polyester fiber fill.</p>
+            </div>
+          </div>
           
-          <h3>What are the items made of?</h3>
-            <p>Polyester mix craft grade felt. Stuffed items are filled with hypo-allergenic polyester fiber fill.</p>
+          <div class="tab">
+            <input id="tab-three" type="radio" name="tabs">
+            <label for="tab-three">Can I change the colors on the icing of cookies or cake slices?</label>
+            <div class="tab-content">
+                <p>Yes you can! Just send us a message or email prior to ordering to make sure we have the colors for the changes you are wishing to make.</p>
+            </div>
+          </div>
           
-          <h3>Can I change the colors on the icing of cookies or cake slices?</h3>
-            <p>Yes you can! Just send us a message or email prior to ordering to make sure we have the colors for the changes you are wishing to make.</p>
+          <div class="tab">
+            <input id="tab-four" type="radio" name="tabs">
+            <label for="tab-four">I need my order rushed. Can you help?</label>
+            <div class="tab-content">
+                <p>We cannot rush our production time, and shipping usually takes 2 days.</p>
+            </div>
+          </div>
           
-          <h3>I need my order rushed. Can you help?</h3>
-            <p>We cannot rush our production time, and shipping usually takes 2 days.</p>
+          <div class="tab">
+            <input id="tab-five" type="radio" name="tabs">
+            <label for="tab-five">Do you ship internationally?</label>
+            <div class="tab-content">
+                <p>We currently do not ship internationally.</p>
+            </div>
+          </div>
           
-          <h3>Do you ship internationally?</h3>
-            <p>We currently do not ship internationally.</p>
+          <div class="tab">
+            <input id="tab-six" type="radio" name="tabs">
+            <label for="tab-six">Do you take custom orders?</label>
+            <div class="tab-content">
+                <p>We do currently take custom orders as we're able; however, we will not directly copy another artist's work. We will do our best to create something with the idea you have in mind. We do retain the right to say we are not able to make a custom order if it is beyond our creative ability or directly copying someone else's work. Please email us at <a href="mailto:heartfeltcreationsbymegs@gmail.com">heartfeltcreationsbymegs@gmail.com</a> or message us on <a href="https://www.facebook.com/heartfeltcreationsbymegs">www.facebook.com/heartfeltcreationsbymegs</a> to chat with us!</p>
+            </div>
+          </div>
           
-          <h3>Do you take custom orders?</h3>
-            <p>We do currently take custom orders as we're able; however, we will not directly copy another artist's work. We will do our best to create something with the idea you have in mind. We do retain the right to say we are not able to make a custom order if it is beyond our creative ability or directly copying someone else's work. Please email us at <a href="mailto:heartfeltcreationsbymegs@gmail.com">heartfeltcreationsbymegs@gmail.com</a> or message us on <a href="https://www.facebook.com/heartfeltcreationsbymegs">www.facebook.com/heartfeltcreationsbymegs</a> to chat with us!</p>
+          <div class="tab">
+            <input id="tab-seven" type="radio" name="tabs">
+            <label for="tab-seven">My item isn't what I expected. What should I do?</label>
+            <div class="tab-content">
+                <p>It is important to us that you love your order but all sales are final. If you have any questions or concerns prior to ordering please contact us and we would love to help you.</p>
+            </div>
+          </div>
           
-          <h3>My item isn't what I expected. What should I do?</h3>
-            <p>It is important to us that you love your order but all sales are final. If you have any questions or concerns prior to ordering please contact us and we would love to help you.</p>
+          <div class="tab">
+            <input id="tab-eight" type="radio" name="tabs">
+            <label for="tab-eight">How are my items shipped?</label>
+            <div class="tab-content">
+                <p>All items are shipped via USPS Priority Flat Rate Shipping boxes. They typically arrive in two days once shipped. A tracking number and notification of shipping with be sent via PayPal.</p>
+            </div>
+          </div>
           
-          <h3>How are my items shipped?</h3>
-            <p>All items are shipped via USPS Priority Flat Rate Shipping boxes. They typically arrive in two days once shipped. A tracking number and notification of shipping with be sent via PayPal.</p>
+          <div class="tab">
+            <input id="tab-nine" type="radio" name="tabs">
+            <label for="tab-nine">What ages are best for these toys?</label>
+            <div class="tab-content">
+                <p>Most items are great for ages 1 & up; however, items or sets with smaller items are not recommended for children under 3, as they could be a choking hazard. We are not liable, and we ask that you purchase using your best judgement. Smaller items include raspberries, blueberries, blackberries, strawberries, butter tabs, green beans, etc. If you have a question regarding an item for a specific age or child, please feel free to send us a message and ask.</p>
+            </div>
+          </div>
           
-          <h3>What ages are best for these toys?</h3>
-            <p>Most items are great for ages 1 & up; however, items or sets with smaller items are not recommended for children under 3, as they could be a choking hazard. We are not liable, and we ask that you purchase using your best judgement. Smaller items include raspberries, blueberries, blackberries, strawberries, butter tabs, green beans, etc. If you have a question regarding an item for a specific age or child, please feel free to send us a message and ask.</p>
-          
-          <h3>How do I clean my items?</h3>
-            <p>We recommend that you only spot clean your items and do not rub, but blot (rubbing excessively will create pilling on the felt). It could ruin your product if you were to throw it in the washer machine. For more information go here. </p>
+          <div class="tab">
+            <input id="tab-ten" type="radio" name="tabs">
+            <label for="tab-ten">How do I clean my items?</label>
+            <div class="tab-content">
+                <p>We recommend that you only spot clean your items and do not rub, but blot (rubbing excessively will create pilling on the felt). It could ruin your product if you were to throw it in the washer machine. For more information go here. </p>
+            </div>
+          </div>
+            
+                      
       </div>
            
       <footer>
@@ -94,7 +148,7 @@
           </div>
           
       </footer>
-        </div>
+        
       </div>
    
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
