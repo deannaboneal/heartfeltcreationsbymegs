@@ -170,7 +170,7 @@ Media Queries
 *******************************/
 
 @media screen and (max-width:975px) {
-    ul.nav li:not(:first-child) {display: none;}
+    ul.nav li {display: none;}
     ul.nav li.icon {
         float: right;
         display: inline-block;
