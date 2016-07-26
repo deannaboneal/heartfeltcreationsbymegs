@@ -35,12 +35,6 @@ h2 {
     font-size: xx-large;
 }
 
-h3 {
-    text-decoration:underline; 
-    font-size: x-large;
-    text-shadow: 1px 1px 3px #ff2bff; 
-}
-
 .faqs {
     padding: 0 25%;
     text-align: center;
